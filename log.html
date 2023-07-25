@@ -1,0 +1,78 @@
+<html>
+    <head>
+        <style>
+            body{
+                background-color: #800B3A;
+            }
+            table
+            {
+                background-color: #5E0231;   
+                width: 450px;
+                color: white;
+                margin-top: 150px;
+            }
+            tr,td{
+                text-align: center;
+                padding: 8px 8px;
+            }
+            .iuc{
+                text-align: right;
+            }
+        </style>
+    </head>
+    <body>
+        <center>
+        <table>
+            <tr>
+                <td class="iuc">Name : </td>
+                <td><input type="text" placeholder="your name"></td>
+            </tr>
+            <tr>
+                <td class="iuc">Email : </td>
+                <td><input type="email" placeholder="your email"></td>
+            </tr>
+            <tr>
+                <td class="iuc">Password : </td>
+                <td><input type="password"></td>
+            </tr>
+            <tr>
+                <td class="iuc">Phone : </td>
+                <td><input type="tel" maxlength="10"></td>
+            </tr>
+            <tr>
+                <td class="iuc">Gender : </td>
+                <td>
+                    <label for="male">Male</label>
+                    <input type="radio" name="gender" id="male">
+                    <label for="female">Female</label>
+                    <input type="radio" name="gender" id="female">
+                    <label for="other">Otehr</label>
+                    <input type="radio" name="gender" id="other">
+                </td>
+            </tr>
+            <tr>
+                <td class="iuc">Language : </td>
+                <td>
+                    <select name="" id="">
+                        <option value="Select Language" disabled>Select Language</option>
+                        <option value="Gujarati">Gujarati</option>
+                        <option value="Hindi">Hindi</option>
+                        <option value="english">english</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td class="iuc">Zip Code : </td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td class="iuc">Address : </td>
+                <td><textarea name="" id="" cols="21" rows="2" placeholder="Write address..."></textarea></td>
+            </tr>
+            <tr>
+                <td colspan="2"><input type="submit" value="Register" style="width: 80%; height: 30px; border-radius: 5px;"></td>
+            </tr>
+        </table>
+    </center>
+    </body>
+</html>
