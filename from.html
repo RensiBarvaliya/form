@@ -1,0 +1,76 @@
+<html>
+    <head></head>
+   <style>
+        body{
+            background-color: #00bfff;
+        }
+        table
+        {
+            background-color: azure;
+            width: 100px;
+            margin: 100px;
+            line-height: 10px;
+        }
+        .i{
+            background-color: black;
+            text-align: center;
+            color: white;
+        }
+        tr,th,td{
+            padding: 15px 15px;
+        }
+        input
+        {
+            border-style: hidden ;
+            background-color:darkgrey;
+           
+        }
+   </style>
+   <body>
+    <center>
+        <table>
+        <tr>
+            <th class="i" colspan="3">EVENT REGISTER FORM</th>
+        </tr>
+        <tr>
+            <td>Name:</td>
+            <td><input type="text" placeholder="full name" style="height: 30px;"><br>
+            full name</td>
+            <td><input type="text" placeholder="Last name"></td>
+        </tr>
+        <tr>
+            <td>Company:</td>
+            <td><input type="text"></td>
+        </tr>
+        <tr>
+            <td>Email:</td>
+            <td><input type="text" placeholder="example@emil.com"></td>
+        </tr>
+        <tr>
+            <td>Phone:</td>
+            <td><input type="tel" maxlength="2"></td>
+            <td><input type="tel" maxlength="10"></td>
+        </tr>
+        <tr>
+            <td>Subject:</td>
+            <td><select name="" id="">
+                <option value="chooes option">chooes option</option>
+                <option value="english">English</option>
+                <option value="Hindi">Hindi</option>
+                <option value="Maths">Maths</option>
+            </select></td>
+        </tr>
+        <tr>
+            <td colspan="2">Are you an exising customer?</td>
+            <td><br><label for="Yes"></label>
+            Yes<input type="radio" name="Yes" id="Yes">
+            <label for="No"></label>
+            No<input type="radio" name="No" id="No"></td>
+        </tr>
+        <tr>
+            <td><input type="submit" value="Register"></td>
+        </tr>
+    </table>
+    </center>
+   </body>
+</html>
